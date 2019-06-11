@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28803.202
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TSPGeneticAlgorithm", "TSPGeneticAlgorithm\TSPGeneticAlgorithm.csproj", "{DA214EC7-A5A7-434B-BB9F-93884F5AE72F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TSP", "TSP\TSP.csproj", "{55A571E7-C9A2-4342-8643-C64DF586604C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeneticTSP", "GeneticTSP\GeneticTSP.csproj", "{874EF8B3-DFCF-4C68-8620-D4EC0E7E0DA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TSPHelperClasses", "TSPHelperClasses\TSPHelperClasses.csproj", "{1D88F9CC-9D0A-4A29-AFEA-C17DF407E849}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExhaustiveTSP", "ExhaustiveTSP\ExhaustiveTSP.csproj", "{985EAB57-C237-452B-B4EA-4473EEA2B81F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +17,22 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DA214EC7-A5A7-434B-BB9F-93884F5AE72F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DA214EC7-A5A7-434B-BB9F-93884F5AE72F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DA214EC7-A5A7-434B-BB9F-93884F5AE72F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DA214EC7-A5A7-434B-BB9F-93884F5AE72F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55A571E7-C9A2-4342-8643-C64DF586604C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55A571E7-C9A2-4342-8643-C64DF586604C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55A571E7-C9A2-4342-8643-C64DF586604C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55A571E7-C9A2-4342-8643-C64DF586604C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{874EF8B3-DFCF-4C68-8620-D4EC0E7E0DA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{874EF8B3-DFCF-4C68-8620-D4EC0E7E0DA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{874EF8B3-DFCF-4C68-8620-D4EC0E7E0DA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{874EF8B3-DFCF-4C68-8620-D4EC0E7E0DA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D88F9CC-9D0A-4A29-AFEA-C17DF407E849}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D88F9CC-9D0A-4A29-AFEA-C17DF407E849}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D88F9CC-9D0A-4A29-AFEA-C17DF407E849}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D88F9CC-9D0A-4A29-AFEA-C17DF407E849}.Release|Any CPU.Build.0 = Release|Any CPU
+		{985EAB57-C237-452B-B4EA-4473EEA2B81F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{985EAB57-C237-452B-B4EA-4473EEA2B81F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{985EAB57-C237-452B-B4EA-4473EEA2B81F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{985EAB57-C237-452B-B4EA-4473EEA2B81F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

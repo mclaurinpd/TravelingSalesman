@@ -8,11 +8,12 @@ namespace TSPGeneticAlgorithm
     class GeneticAlgorithm
     {
 
-        static void Main(string[] args)
+        public List<City> cityList { get; private set; }
+
+        public GeneticAlgorithm()
         {
-            var cityList = new List<City>();
-            var geneticAlgorithm = new GeneticAlgorithm();
-            cityList = geneticAlgorithm.ReadCities();
+            cityList = new List<City>();
+            cityList = ReadCities();
         }
 
         private List<City> ReadCities()
