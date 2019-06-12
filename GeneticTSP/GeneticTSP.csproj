@@ -53,11 +53,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="resources\cities.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\TSPHelperClasses\TSPHelperClasses.csproj">
       <Project>{1d88f9cc-9d0a-4a29-afea-c17df407e849}</Project>
       <Name>TSPHelperClasses</Name>
