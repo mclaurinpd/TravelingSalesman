@@ -42,6 +42,8 @@ namespace TSPHelperClasses
                     TripLength += DistanceBetweenTwoCities(Route[i], Route[0]);
                 }
             }
+
+            TripLength += DistanceBetweenTwoCities(Route[0], Route[Route.Count - 1]);
         }
 
         public override string ToString()

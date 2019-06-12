@@ -6,7 +6,7 @@ namespace TSP
     {
         public static void Main(string[] args)
         {
-            var genetic = new GeneticAlgorithm(1000, 200, .05);
+            var genetic = new GeneticAlgorithm(10000, 200, .1);
         }
     }
 }

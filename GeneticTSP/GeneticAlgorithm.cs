@@ -98,10 +98,10 @@ namespace GeneticTSP
             var nextGen = new List<Trip>();
 
             // Natural selection means that only the fittest will survive.
-            Population.OrderBy(x => x.TripLength);
+            Population = Population.OrderBy(x => x.TripLength).ToList();
             for (int i = 0; i < Population.Count; i++)
             {
-                nextGen.Add(Crossover(Population[Rand.Next(Population.Count / 2)], Population[Rand.Next(Population.Count / 2)]));
+                nextGen.Add(Crossover(Population[Rand.Next(Population.Count / 4)], Population[Rand.Next(Population.Count / 4)]));
             }
 
             Population = nextGen;
